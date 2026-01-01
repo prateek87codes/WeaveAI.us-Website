@@ -26,7 +26,7 @@ export default function Contact() {
           <input type="hidden" name="_subject" value="New Contact Form Submission from WeaveAI.us" />
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_template" value="table" />
-          <input type="hidden" name="_next" value="https://weaveai.us/thank-you" />
+          <input type="hidden" name="_next" value="https://www.weaveai.us/thank-you" />
           
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-neutral-dark mb-2">
