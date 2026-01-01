@@ -3,9 +3,28 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Contact',
   description: 'Get in touch with WeaveAI to transform your content into commerce. Book a call or send us a message.',
+  metadataBase: new URL('https://weaveai.us'),
+  alternates: {
+    canonical: '/contact',
+  },
   openGraph: {
     title: 'Contact WeaveAI',
     description: 'Get in touch with WeaveAI to transform your content into commerce. Book a call or send us a message.',
+    url: 'https://weaveai.us/contact',
+    images: [
+      {
+        url: 'https://weaveai.us/WeaveAI.US%20logo.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Contact WeaveAI',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact WeaveAI',
+    description: 'Get in touch with WeaveAI to transform your content into commerce. Book a call or send us a message.',
+    images: ['https://weaveai.us/WeaveAI.US%20logo.jpg'],
   },
 }
 

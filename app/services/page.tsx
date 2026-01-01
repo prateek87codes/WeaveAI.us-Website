@@ -3,9 +3,28 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Services',
   description: 'Discover our AI-powered services: Content Optimization, Intelligent Commerce Solutions, Automated Growth Funnels, and AI Analytics.',
+  metadataBase: new URL('https://weaveai.us'),
+  alternates: {
+    canonical: '/services',
+  },
   openGraph: {
     title: 'WeaveAI Services',
     description: 'Discover our AI-powered services: Content Optimization, Intelligent Commerce Solutions, Automated Growth Funnels, and AI Analytics.',
+    url: 'https://weaveai.us/services',
+    images: [
+      {
+        url: 'https://weaveai.us/WeaveAI.US%20logo.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'WeaveAI Services',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'WeaveAI Services',
+    description: 'Discover our AI-powered services: Content Optimization, Intelligent Commerce Solutions, Automated Growth Funnels, and AI Analytics.',
+    images: ['https://weaveai.us/WeaveAI.US%20logo.jpg'],
   },
 }
 

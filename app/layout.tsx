@@ -62,6 +62,20 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  icons: {
+    icon: [
+      { url: '/favicon_io/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon_io/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/favicon_io/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      { rel: 'android-chrome', url: '/favicon_io/android-chrome-192x192.png', sizes: '192x192' },
+      { rel: 'android-chrome', url: '/favicon_io/android-chrome-512x512.png', sizes: '512x512' },
+    ],
+  },
+  manifest: '/favicon_io/site.webmanifest',
 }
 
 export default function RootLayout({
@@ -72,6 +86,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link
+          rel="preconnect"
+          href="https://fonts.googleapis.com"
+        />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -93,8 +116,14 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-primary-green focus:text-white focus:rounded-lg focus:font-semibold focus:shadow-lg"
+        >
+          Skip to main content
+        </a>
         <Navbar />
-        <main className="min-h-screen">
+        <main id="main-content" className="min-h-screen">
           {children}
         </main>
         <Footer />

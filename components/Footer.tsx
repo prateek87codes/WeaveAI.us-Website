@@ -15,6 +15,7 @@ export default function Footer() {
                 width={40}
                 height={40}
                 className="object-contain"
+                priority
               />
               <span className="text-xl font-bold">WeaveAI</span>
             </Link>

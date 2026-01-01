@@ -20,6 +20,7 @@ export default function Navbar() {
               width={40}
               height={40}
               className="object-contain"
+              priority
             />
             <span className="text-xl font-bold text-neutral-dark">WeaveAI</span>
           </Link>
