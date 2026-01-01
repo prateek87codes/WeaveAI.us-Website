@@ -56,11 +56,6 @@ const nextConfig = {
 
   // Performance optimizations
   poweredByHeader: false,
-  
-  // Experimental features for better performance
-  experimental: {
-    optimizeCss: true,
-  },
 }
 
 module.exports = nextConfig
