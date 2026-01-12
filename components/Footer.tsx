@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center space-x-2 mb-4">
               <Image
-                src="/WeaveAI.US logo.jpg"
+                src="/WeaveAI.US logo.png"
                 alt="WeaveAI Logo"
                 width={40}
                 height={40}

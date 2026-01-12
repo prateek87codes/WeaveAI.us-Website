@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: 'https://weaveai.us/about',
     images: [
       {
-        url: 'https://weaveai.us/WeaveAI.US%20logo.jpg',
+        url: 'https://weaveai.us/WeaveAI.US%20logo.png',
         width: 1200,
         height: 630,
         alt: 'WeaveAI - About Us',

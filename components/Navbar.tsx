@@ -15,7 +15,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="/WeaveAI.US logo.jpg"
+              src="/WeaveAI.US logo.png"
               alt="WeaveAI Logo"
               width={40}
               height={40}

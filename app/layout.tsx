@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: 'WeaveAI',
     images: [
       {
-        url: 'https://weaveai.us/WeaveAI.US%20logo.jpg',
+        url: 'https://weaveai.us/WeaveAI.US%20logo.png',
         width: 1200,
         height: 630,
         alt: 'WeaveAI - Weaving AI into Content & Commerce',
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'WeaveAI - Weaving AI into Content & Commerce',
     description: 'Leveraging AI to redefine the content-to-commerce business model. Transform your content into commerce with intelligent automation.',
-    images: ['https://weaveai.us/WeaveAI.US%20logo.jpg'],
+    images: ['https://weaveai.us/WeaveAI.US%20logo.png'],
   },
   robots: {
     index: true,
@@ -103,7 +103,7 @@ export default function RootLayout({
               '@type': 'Organization',
               name: 'WeaveAI',
               url: 'https://weaveai.us',
-              logo: 'https://weaveai.us/WeaveAI.US%20logo.jpg',
+              logo: 'https://weaveai.us/WeaveAI.US%20logo.png',
               description: 'Leveraging AI to redefine the content-to-commerce business model.',
               sameAs: [],
               contactPoint: {
